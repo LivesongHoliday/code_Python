@@ -50,8 +50,10 @@ num2 -= 5
 print(f'num2 = {num2}')      # 5
 
 
-# 逗号运算符: 多个表达式用逗号分隔, 并返回最后一个表达式的值。
-# 原理: 元组解包
+'''
+逗号运算符: 多个表达式用逗号分隔, 并返回最后一个表达式的值。
+原理: 元组解包
+'''
 
 # num1 = 10
 # num2 = 20
@@ -63,6 +65,7 @@ print(f'num2 = {num2}')      # 5
 
 num1, num2, num3 = 10, 20, 30
 print(f'num1 = {num1}, num2 = {num2}, num3 = {num3}')    # num1 = 10, num2 = 20, num3 = 30
+
 
 '''
 比较运算符: 对变量或表达式的结果进行大小比较, 其结果是一个布尔值, 即True或False。
@@ -81,6 +84,7 @@ print(f'result1 = {result1}')    # False
 
 result2 = num1 != num2
 print(f'result2 = {result2}')    # True
+
 
 '''
 逻辑运算符: 布尔运算符, 对布尔值之间的逻辑运算。
