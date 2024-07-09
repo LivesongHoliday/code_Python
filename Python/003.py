@@ -81,3 +81,30 @@ print(f'result1 = {result1}')    # False
 
 result2 = num1 != num2
 print(f'result2 = {result2}')    # True
+
+'''
+逻辑运算符: 布尔运算符, 对布尔值之间的逻辑运算。
+作用: 判断多个条件, 使用逻辑运算符来指定多个条件之间的关系。其结果仍然是一个布尔值。
+and 与
+or  或
+not 非
+'''
+
+# and 与运算 特点: 全真为真,一假即假。
+gander = input('请输入你的性别(男/女): ')
+age = int(input('请输入你的年龄: '))
+result = (gander == '男' and age >= 18)
+print(f'result = {result}')
+
+# or 或运算 特点: 一真即真, 全假为假。
+gander = input('请输入你的性别(男/女): ')
+age = int(input('请输入你的年龄: '))
+result = (gander == '男' or age >= 18)
+print(f'result = {result}')
+
+
+# not 非运算 特点: 取反。
+gander = input('请输入你的性别(男/女): ')
+age = int(input('请输入你的年龄: '))
+result = not (gander == '男' and age >= 18)
+print(f'result = {result}')
